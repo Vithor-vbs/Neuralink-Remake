@@ -1,0 +1,16 @@
+.hero-cta-box {
+  display: inline-block;
+  border-top: 2px solid #fff;
+  padding: 2.5rem;
+  padding-left: 0;
+}
+
+.global-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #fff;
+}
+.link1 {
+  margin-right: 4rem;
+}

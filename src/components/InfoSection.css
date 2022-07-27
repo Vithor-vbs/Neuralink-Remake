@@ -1,0 +1,62 @@
+.info-section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: left;
+
+  height: 50rem;
+}
+
+.info-divs {
+  padding: 5rem;
+  color: #fff;
+  font-size: 4rem;
+  position: relative;
+}
+
+.div-text {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5rem;
+}
+
+.div-text::after {
+  position: absolute;
+  content: "FIG.1";
+  font-size: 1.6rem;
+  font-weight: 500;
+  top: 24rem;
+  left: 36.2rem;
+}
+.num2::after {
+  content: "FIG.2";
+}
+.num3::after {
+  content: "FIG.3";
+}
+
+.div-one {
+  background-color: #c9a2a3;
+}
+.div-two {
+  background-color: #a7ceef;
+}
+.div-three {
+  background-color: #abb5ac;
+}
+
+.div-img-box {
+  text-align: center;
+}
+
+.div-img1 {
+  width: 30rem;
+}
+.div-img2 {
+  width: 30rem;
+  transform: scale(1.4);
+  margin-top: 10rem;
+}
+.div-img3 {
+  width: 30rem;
+  transform: scale(1.4);
+  margin-top: 10rem;
+}
