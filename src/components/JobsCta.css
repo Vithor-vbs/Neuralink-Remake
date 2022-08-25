@@ -1,0 +1,61 @@
+.job-container {
+  background-image: url(./img/homepage-footer.jpg);
+  height: 60rem;
+  min-width: 121rem;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.job-container-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 5.2rem;
+}
+
+.job-text {
+  text-align: left;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.job-header-box {
+  display: flex;
+  flex-direction: column;
+  font-family: "Uchen", sans-serif;
+
+  font-size: 4.5rem;
+  font-weight: 500;
+
+  line-height: 1.2;
+  text-align: left;
+  word-spacing: -15px;
+}
+.job-header {
+  font-weight: 400;
+}
+
+.job-subHeader {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3rem;
+}
+
+.job-text {
+  margin-top: 3rem;
+  text-align: left;
+  line-height: 1.5;
+  margin-right: 4rem;
+}
+
+.jobs-cta {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 450;
+
+  display: flex;
+}
+.jobs-cta-box {
+  padding-left: 5.2rem;
+  padding-top: 10rem;
+}

@@ -1,0 +1,97 @@
+.info-section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: left;
+  min-width: 121em;
+
+  /* height: 50rem; */
+}
+
+.info-divs {
+  padding: 5rem;
+  color: #fff;
+  font-size: 4.2rem;
+  position: relative;
+}
+
+.info-divs:hover,
+.info-divs:active {
+  transition: all 0.3s;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(234, 223, 223, 0.2),
+    rgba(244, 239, 239, 0.2)
+  );
+  cursor: pointer;
+}
+
+.div-text {
+  font-family: "Uchen", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  word-spacing: -15px;
+}
+.subtext {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 2rem;
+}
+
+.div-text::after {
+  position: absolute;
+  content: "FIG.1";
+  font-size: 1.6rem;
+  font-weight: 400;
+  top: 23%;
+  left: 81%;
+  font-family: "Ubuntu", sans-serif;
+}
+.num2::after {
+  content: "FIG.2";
+}
+.num3::after {
+  content: "FIG.3";
+}
+
+.div-one {
+  background-color: #c9a2a3;
+}
+.div-two {
+  background-color: #a7ceef;
+}
+.div-three {
+  background-color: #abb5ac;
+}
+
+.div-img-box {
+  text-align: center;
+}
+
+.div-img1 {
+  width: 30rem;
+  transform: scale(0.9);
+}
+.div-img2 {
+  width: 30rem;
+  transform: scale(1.4);
+  margin-top: 10rem;
+}
+.div-img3 {
+  width: 30rem;
+  transform: scale(1.3);
+  margin-top: 10rem;
+}
+
+.info-bottom {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  display: flex;
+  gap: 2px;
+}
+.info-2 {
+  margin-top: 39.5%;
+}
+.info-3 {
+  margin-top: 27%;
+}

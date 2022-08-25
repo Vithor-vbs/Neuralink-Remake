@@ -1,0 +1,29 @@
+.hero-cta-box {
+  display: flex;
+  border-top: 2px solid #fff;
+  padding: 2.5rem;
+  padding-left: 0;
+
+  max-width: 52rem;
+}
+
+.global-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #fff;
+  cursor: pointer;
+
+  display: flex;
+}
+
+.global-link:hover .global-link:active {
+  cursor: pointer;
+}
+
+.link1 {
+  margin-right: 4rem;
+}
+.arrow-cta {
+  margin-top: 1rem;
+}

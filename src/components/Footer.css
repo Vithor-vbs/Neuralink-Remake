@@ -1,0 +1,40 @@
+.footer-section {
+  height: 25rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  min-width: 121rem;
+
+  padding: 7rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #858786;
+  background-color: #f2f8f8;
+}
+.first-column {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-logo {
+  height: 3.5rem;
+}
+
+.footer-links-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #858786;
+}
+
+.footer-links:hover,
+.footer-links:active {
+  color: #444;
+}
+
+.third-column {
+  line-height: 1.5;
+}

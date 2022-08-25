@@ -1,0 +1,24 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.neuralink-logo {
+  height: 7rem;
+
+  stroke: #fff;
+}
+
+.nav-links-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-align: right;
+}
+.nav-links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 425;
+  text-transform: uppercase;
+}

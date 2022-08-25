@@ -1,0 +1,44 @@
+.hero-Container {
+  background-color: #b4bdcc;
+  height: 70rem;
+  padding: 6rem 7rem;
+  padding-bottom: 8rem;
+  position: relative;
+  overflow: hidden;
+  min-width: 121rem;
+}
+.subordinate {
+  margin-bottom: 10rem;
+}
+
+.hero-content-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.hero-img {
+  height: 50rem;
+}
+
+/* .hero-img-box {
+  background-image: url("./img/hero-img.png");
+  background-size: 130rem;
+  background-position-x: 90%;
+  background-position-y: 45%;
+} */
+
+.hero-header {
+  font-size: 6rem;
+  color: #fff;
+}
+
+.subordinate::before {
+  content: "";
+  background-image: url("./img/hero-img.png");
+  width: 136rem;
+  height: 55rem;
+  background-size: 130rem;
+  background-position-x: -90%;
+  background-position-y: 30%;
+  position: absolute;
+}
