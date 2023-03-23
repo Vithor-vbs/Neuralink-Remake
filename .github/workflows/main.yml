@@ -26,7 +26,7 @@ jobs:
         id: build-image
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outposts.registry }}
-          ECR_REPOSITORY: Neuralink-Remake
+          ECR_REPOSITORY: neuralink-remake
           IMAGE_TAG: latest
         run: docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
