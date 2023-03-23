@@ -13,13 +13,10 @@ const InfoSection = () => {
         <div className="div-img-box">
           <img src={redThumb} className="div-img1" alt="brain image" />
         </div>
-        <p className="info-bottom info-1">
+        <div className="info-bottom info-1">
           <span>Science</span>
-          <ion-icon
-            className="arrow-icon"
-            name="arrow-forward-outline"
-          ></ion-icon>
-        </p>
+          <ion-icon className="" name="arrow-forward-outline"></ion-icon>
+        </div>
       </div>
       <div className="div-two info-divs">
         <p className="div-text num2">Interfacing</p>

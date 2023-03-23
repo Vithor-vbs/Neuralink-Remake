@@ -10,7 +10,11 @@ const HeroSection = () => {
       <div className="subordinate">
         <HeroNav />
         <div className="hero-content-box">
-          <h1 className="hero-header">Breakthrough Technology for the Brain</h1>
+          <h1 className="hero-header">
+            <span>Breakthrough</span>
+            <span>Technology</span>
+            <span>for the Brain</span>
+          </h1>
           <div className="hero-img-box"></div>
         </div>
       </div>

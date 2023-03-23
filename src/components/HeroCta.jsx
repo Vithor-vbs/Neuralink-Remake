@@ -5,20 +5,22 @@ import "./HeroCta.css";
 const HeroCta = () => {
   return (
     <div className="hero-cta-box">
-      <a href="#" className="global-link link1">
-        <span>Join the Team</span>
-        <ion-icon
-          className="arrow-icon arrow-cta"
-          name="arrow-forward-outline"
-        ></ion-icon>
-      </a>
-      <a href="#" className="global-link link2">
-        <span>Watch the update</span>
-        <ion-icon
-          className="arrow-icon arrow-cta"
-          name="arrow-forward-outline"
-        ></ion-icon>
-      </a>
+      <div className="aux-cta-box">
+        <a href="#" className="global-link link1">
+          <span>Join the Team</span>
+        </a>
+        <span className="arrow-icon">
+          <ion-icon className="" name="arrow-forward-outline"></ion-icon>
+        </span>
+      </div>
+      <div className="aux-cta-box">
+        <a href="#" className="global-link link1">
+          <span>Watch the update</span>
+        </a>
+        <span className="arrow-icon">
+          <ion-icon className="" name="arrow-forward-outline"></ion-icon>
+        </span>
+      </div>
     </div>
   );
 };

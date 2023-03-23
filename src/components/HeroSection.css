@@ -32,13 +32,19 @@
   color: #fff;
 }
 
+.hero-header {
+  display: flex;
+  flex-direction: column;
+}
+
 .subordinate::before {
   content: "";
   background-image: url("./img/hero-img.png");
   width: 136rem;
   height: 55rem;
-  background-size: 130rem;
-  background-position-x: -90%;
-  background-position-y: 30%;
+  background-size: 117rem;
+  background-position-x: 130%;
+  background-position-y: 21%;
   position: absolute;
+  background-repeat: no-repeat;
 }

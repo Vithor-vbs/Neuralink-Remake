@@ -52,10 +52,12 @@
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: 450;
-
-  display: flex;
 }
 .jobs-cta-box {
   padding-left: 5.2rem;
   padding-top: 10rem;
+}
+
+.arrow-icon {
+  margin-top: 1rem;
 }

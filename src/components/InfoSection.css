@@ -89,9 +89,16 @@
   display: flex;
   gap: 2px;
 }
+
+.arrow-icon {
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
 .info-2 {
-  margin-top: 39.5%;
+  margin-top: 13.5rem;
 }
 .info-3 {
-  margin-top: 27%;
+  margin-top: 9rem;
 }

@@ -4,7 +4,24 @@
   padding: 2.5rem;
   padding-left: 0;
 
+  gap: 2rem;
+
   max-width: 52rem;
+}
+
+.aux-cta-box {
+  display: flex;
+  gap: 1rem;
+  margin-right: 4rem;
+  white-space: nowrap;
+
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.aux-cta-box:hover .arrow-icon {
+  animation: both 1.5s none ease-in-out infinite;
 }
 
 .global-link {
@@ -13,17 +30,18 @@
   font-size: 2.4rem;
   color: #fff;
   cursor: pointer;
-
-  display: flex;
 }
 
-.global-link:hover .global-link:active {
+.arrow-icon {
+  position: absolute;
+  top: 30%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+  font-size: 2.4rem;
+  color: #fff;
   cursor: pointer;
 }
 
-.link1 {
-  margin-right: 4rem;
-}
-.arrow-cta {
-  margin-top: 1rem;
+.global-link {
+  cursor: pointer;
 }
