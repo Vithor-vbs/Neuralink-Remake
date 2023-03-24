@@ -13,5 +13,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm", "start"]
-
-# Path: Neuralink-Remake\docker-compose.yml
