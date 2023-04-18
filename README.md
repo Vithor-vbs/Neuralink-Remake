@@ -2,6 +2,10 @@
 
 The website for Neuralink is built using React and is hosted on the AWS cloud. In this documentation, we will discuss how I created a static website copy of the [neuralink.com](https://neuralink.com/) using React and AWS cloud technologies to create external infrastructure.
 
+Here is a complete diagram of the system:
+
+![Captura de tela 2023-04-17 233812](https://user-images.githubusercontent.com/69211568/232792840-08191003-8e42-4ec3-9892-cc9d37ffa75e.png)
+
 ### `Prerequisites / Technologies Used`
 
 To follow this documentation, you will need the following:
