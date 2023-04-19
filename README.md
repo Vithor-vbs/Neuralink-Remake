@@ -110,3 +110,5 @@ Recommended tool: install Uptime Kuma
 > docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:1
 
 Create an user and then pass your instance URL to monitor the site.
+
+teste
